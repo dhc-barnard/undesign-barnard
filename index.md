@@ -2,11 +2,13 @@
 layout: page
 show_title: false
 banner:
-  collection: qatar
+  collection: #undesign
   pid: obj10
   y: 25%
   height: '500px'
 ---
+
+The __ #Undesign Syllabus__ is a project supported by the [Barnard Digital Humanities Center](https://digitalhumanities.barnard.edu/). We will be using __Wax__ to create a digital archive of contributions to the collaborative syllabus which is part of the Undesign the Redline learning community at Barnard.
 
 __Wax__ is a [minimal computing](http://go-dh.github.io/mincomp/) project for producing digital exhibitions focused on longevity, low costs, and flexibility. Our underlying technology is made to learn and to teach, and can produce beautifully rendered, high-quality image collections and scholarly exhibits. To start using Wax, please see our [documentation](https://minicomp.github.io/wiki/#/wax/) for installation instructions and more.
 
