@@ -1,11 +1,35 @@
 ---
 layout: page
-title: Credits
+title: Collaborators
 permalink: '/credits/'
 ---
 
-Wax is a minimal computing ([minicomp](https://github.com/minicomp)) project led by [Marii Nyröp](http://marii.info/). The project is currently maintained by Marii Nyröp at New York University and [Alex Gil](https://github.com/elotroalex) at Columbia University Libraries. It uses open source libraries and frameworks including [Jekyll](https://jekyllrb.com), [IIIF](http://iiif.io), [OpenSeaDragon](https://openseadragon.github.io/), [Rake](https://ruby.github.io/rake/), and [ElasticLunr](http://elasticlunr.com/). Wax builds upon work by [Peter Binkley](https://github.com/pbinkley), [David Newbury](https://github.com/workergnome), and others.
+Undesign has drawn together faculty, staff, and students from across the university as well as collaborators from the larger community. Our core planning committee includes:
 
-We welcome and encourage contributors and maintainers. Please get in touch, or [fork the project on GitHub](https://github.com/minicomp/wax). If you encounter any issue with the software, please [create an issue](https://github.com/minicomp/wax/issues) on our repository or post a comment on [Gitter](https://gitter.im/minicomp/wax/).
-
-For more on working with Wax, visit our [documentation wiki](https://minicomp.github.io/wiki/wax/).
+- Ariana Allensworth, artist and Founding Member of [Anti-Eviction Mapping Project](https://antievictionmap.com/)
+- Logan Brenner, Assistant Professor, Environmental Science
+- Zakiya Collier, Digital Archivist at the [Schomburg Center for Research in Black Culture, The New York Public Library](https://www.nypl.org/locations/schomburg)
+- Elizabeth Cook, Assistant Professor, Earth and Environmental Sciences
+- Jennie Correia, Research & Instruction Librarian for the Social Sciences and Interim Associate Director of Teaching, Learning and Digital Scholarship
+- April De Simone, Co-Founder of [Designing the WE](http://www.designingthewe.com/)
+- Kaiama L. Glover, Ann Whitney Olin Professor of French and Africana Studies and Faculty Director, Digital Humanities Center
+- Anne Janowski (BC ’23) History and Anthropology
+- Fatima Zohra Koli, Associate Director of the Empirical Reasoning Center (BLAIS)
+- Ana Lam, Post-Baccalaureate Fellow in the Digital Humanities
+- Daniela Lebron (BC ’22) American Studies and Political Science
+- Mikako Murphy (BC ’22) Urban Studies
+- Vani Natarajan, Research and Instruction Librarian in the Humanities and Global Studies
+- Miriam Neptune, Interim Co-Dean of Barnard Library & Academic Information Services (BLAIS)
+- Michael Partis, Executive Director of [Bronx Cooperative Development Initiative](https://bcdi.nyc/)
+- Alicia Peaker, Digital Scholarship Librarian (BLAIS)
+- Pamela Phillips, Senior Program Assistant, Barnard Center for Research on Women (BCRW) and founder/creator, *[Changing the Narrative](https://thepublichousingproject.com/)*
+- Mary Rocco, Term Assistant Professor of Urban Studies
+- Jennifer Rosales, Executive Director of the Center for Engaged Pedagogy
+- Angela Simms, Assistant Professor, Sociology and Urban Studies
+- Mariame Sissoko (BC ’24) Undecided
+- Shirley Taylor, Director of Education at the [Apollo Theater](https://www.apollotheater.org/)
+- Martha Tenney, Director of the Barnard Archives & Special Collections
+- Vanessa Thill (BC ‘13) Milstein Center Exhibits Designer
+- Annabelle Tseng, Graduate Assistant for the Center for Engaged Pedagogy
+- Saraly Vargas (BC ’21), Sociology
+- Meredith Wisner, Research & Instruction Librarian for Anthropology, Art & Architecture

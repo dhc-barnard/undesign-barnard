@@ -18,11 +18,11 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Wax'
-description:      'Minimal Exhibitions with Jekyll'
+title:            '#Undesign@Barnard Syllabus'
+description:      'Collaborative Syllabus for Undesign the Redline @ Barnard'
 url:              'https://minicomp.github.io'
 baseurl:          '/wax'
-copyright:        'Example copyright org, 2019'
+copyright:        'Example copyright org, 2021'
 logo:             '/assets/logo.png'
 
 # ---------------------------------------------------------------
@@ -104,18 +104,12 @@ search:
 menu:
   - label: 'About'
     sub:
-      - label: 'Wax'
+      - label: 'Undesign the Redline @ Barnard'
         link: '/about/'
       - label: 'Documentation'
         link: 'https://minicomp.github.io/wiki/wax/'
-      - label: 'Credits'
+      - label: 'Collaborators'
         link: '/credits/'
-  - label: 'Exhibits'
-    sub:
-      - label: 'Inline Parallax Image'
-        link: '/exhibits/a/'
-      - label: 'Inline Image References'
-        link: '/exhibits/b/'
   - label: 'Browse'
     link: '/collection/'
   - label: 'Search'
@@ -131,11 +125,11 @@ menu:
 footer:
   links:
     - label: 'GitHub'
-      link: 'https://github.com/minicomp/wax'
+      link: 'https://github.com/dhc-barnard/undesign-barnard'
     - label: 'Credits'
       link: '/credits'
     - label: 'Contact'
-      link: 'https://gitter.im/minicomp/wax/'
+      link: 'mailto:digitalhumanities@barnard.edu'
   logos:
     - img: '/img/logo.png'
 
