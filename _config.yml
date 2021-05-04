@@ -20,9 +20,9 @@
 
 title:            '#Undesign@Barnard Syllabus'
 description:      'Collaborative Syllabus for Undesign the Redline @ Barnard'
-url:              'https://minicomp.github.io'
-baseurl:          '/wax'
-copyright:        'Example copyright org, 2021'
+url:              ''
+baseurl:          '/undesign'
+copyright:        ''
 logo:             '/assets/logo.png'
 
 # ---------------------------------------------------------------
@@ -64,13 +64,13 @@ kramdown:
 collections:
   exhibits:
     output: true
-  qatar: # name of collection
+  undesign: # name of collection
     output: true # makes sure pages are output as html files
-    layout: 'qatar_item' # the layout for the pages to use
+    layout: 'undesign_item' # the layout for the pages to use
     metadata:
-      source: 'qatar.csv' # path to the metadata file within `_data`
+      source: 'undesign.csv' # path to the metadata file within `_data`
     images:
-      source: 'raw_images/qatar' # path to the directory of images within `_data`
+      source: 'raw_images/undesign' # path to the directory of images within `_data`
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
@@ -87,12 +87,10 @@ search:
       qatar:
         content: false # whether or not to index page content
         fields: # the metadata fields to index
-          - artist
-          - location
+          - publisher
+          - object_type
           - label
           - _date
-          - object_type
-          - current_location
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
@@ -102,6 +100,10 @@ search:
 # submenu via `sub`.
 
 menu:
+  - label: 'Browse'
+    link: '/collection/'
+  - label: 'Search'
+    link: '/search/'
   - label: 'About'
     sub:
       - label: 'Undesign the Redline @ Barnard'
@@ -110,12 +112,8 @@ menu:
         link: 'https://minicomp.github.io/wiki/wax/'
       - label: 'Collaborators'
         link: '/credits/'
-  - label: 'Browse'
-    link: '/collection/'
-  - label: 'Search'
-    link: '/search/'
-  - label: 'Reuse'
-    link: '/reuse/'
+      - label: 'Reuse'
+        link: '/reuse/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS
