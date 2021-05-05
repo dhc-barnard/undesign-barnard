@@ -1,11 +1,11 @@
-# undesign@barnard
+# Undesign the Redline @ Barnard
 
 [![Gem Version](https://badge.fury.io/rb/wax_theme.svg)](https://badge.fury.io/rb/wax_tasks)
 [![Build Status](https://travis-ci.com/minicomp/wax.svg?branch=main)](https://travis-ci.com/minicomp/wax)
 [![Join the chat the minicomp-wax channel of the Code4Lib Slack](https://img.shields.io/badge/Slack-%23minicomp--wax-brightgreen.svg)](https://docs.google.com/forms/d/e/1FAIpQLSeD77mBp0Y13mFePF8UmDwFrlbxNx3VttEjz_3dgglJeK-Zbg/viewform?c=0&w=1)
 
 
-[_Undesign the Redline_ @ Barnard](https://undesign.dhcbarnard.org/) is an interactive exhibition that combines history, art, and storytelling with community outreach and collaboration, in order to reckon with systemic racism through an exploration of the legacy of redlining in Barnard and Columbia's neighborhood. This digital scholarly exhibition will highlight _Undesign the Redline_ activities at Barnard and host the #Undesign syllabus, a public and collaborative learning tool. The digital _Undesign the Redline_ @ Barnard presence will use the __Wax__ workflow which follows minimal computing principles. Below is some important information about __Wax__.
+[_Undesign the Redline_ @ Barnard](https://undesign.dhcbarnard.org/) is an interactive exhibition that combines history, art, and storytelling with community outreach and collaboration, in order to reckon with systemic racism through an exploration of the legacy of redlining in Barnard and Columbia's neighborhood. This digital scholarly exhibition will highlight _Undesign the Redline_ activities at Barnard and host the #Undesign@Barnard syllabus, a public and collaborative learning tool. The digital _Undesign the Redline_ @ Barnard presence will use the __Wax__ workflow which follows minimal computing principles. Below is some important information about __Wax__.
 
 
 __Wax is an extensible workflow for producing scholarly exhibitions with minimal computing principles.__<br>
