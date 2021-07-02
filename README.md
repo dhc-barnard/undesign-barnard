@@ -15,11 +15,17 @@ working with this repository.
 2. [Undesign digital collection](#Undesign-Digital-Collection)
 3. [Original Wax readme](#Wax)
 
+<br>
+
 # Undesign Directory Structure
 
 The __Wax__ exhibition site works with a file of metadata records (in `CSV` format) and a directory of image files (either in `png` or `jpeg` format). The CSV spreadsheet containing the Undesign syllabus metadata records can be found at [`\undesign-barnard\_data\undesign.csv`](https://github.com/dhc-barnard/undesign-barnard/blob/main/_data/undesign_faulty.csv). This is how the spreadsheet looks like.
 
+<br>
+
 ![CSV Spreadsheet](/img/undesign_spreadsheet.png)
+
+<br>
 
 The most important fields here are `pid` and `label`. These fields are required. The `pid` field should follow the naming convention already present (`obj1`, `obj2`, `obj3`, ...). The `label` field should be the title or simply description of the collection item. For other fields, please keep in mind to avoid whitespaces and special characters and to keep field names in lowercase. You can change how these field names are displayed on the website.
 
