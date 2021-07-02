@@ -7,6 +7,22 @@
 
 [_Undesign the Redline_ @ Barnard](https://undesign.dhcbarnard.org/) is an interactive exhibition that combines history, art, and storytelling with community outreach and collaboration, in order to reckon with systemic racism through an exploration of the legacy of redlining in Barnard and Columbia's neighborhood. This digital scholarly exhibition will highlight _Undesign the Redline_ activities at Barnard and host the #Undesign@Barnard syllabus, a public and collaborative learning tool. The digital _Undesign the Redline_ @ Barnard presence will use the __Wax__ workflow which follows minimal computing principles. Below is some important information about __Wax__.
 
+Please see the original __Wax__ readme and installation instructions in the [final section](#Wax) when first
+working with this repository.
+
+## Table of Contents
+1. [Undesign directory structure](#Undesign-Directory-Structure)
+2. [Undesign digital archive](#Undesign-Digital-Archive)
+3. [Original Wax readme](#Wax)
+
+# Undesign Directory Structure
+
+For the __Wax__ exhibition site, you need a file of metadata records (in `CSV` format) and a directory of image files (either in `png` or `jpeg` format). The CSV spreadsheet can be found at [`\undesign-barnard\_data\undesign.csv`](https://github.com/dhc-barnard/undesign-barnard/blob/main/_data/undesign_faulty.csv).
+
+# Undesign Digital Archive
+
+
+# Wax
 
 __Wax is an extensible workflow for producing scholarly exhibitions with minimal computing principles.__<br>
 It's comprised of: __a few Ruby gems__ for processing image data and associated metadata ([wax_tasks](https://github.com/minicomp/wax_tasks/), [wax_iiif](https://github.com/minicomp/wax_iiif/)), __a Jekyll theme__ ([wax_theme](https://github.com/minicomp/wax/)), and (hopefully soon!) a lot of __documentation and recipes__ for creating, deploying, and maintaining digital exhibitions.
@@ -20,7 +36,7 @@ It's comprised of: __a few Ruby gems__ for processing image data and associated 
 <br>
 
 
-# Prerequisites
+## Prerequisites
 
 
 You'll need `git` and `ruby >= 2.4` with `bundler` installed.
@@ -51,7 +67,7 @@ $ gs -version
   Copyright (C) 2017 Artifex Software, Inc.  All rights reserved.
 ```
 
-# Getting Started
+## Getting Started
 
 __There are a few ways to get started with Wax, depending on your needs.__ Downloading the demo is suggested for new users so you can see how a full Wax site would work. __Advanced Jekyllers__ can start from a clean Jekyll install. To start with the demo:
 
@@ -88,7 +104,7 @@ __There are a few ways to get started with Wax, depending on your needs.__ Downl
 After the last step, the terminal will provide you with a localhost URL for you to see your local copy of the site on your browser. This is the template site you will make changes to in order to make your own exhibition. For more, check out the [Minicomp/Wax Wiki](https://minicomp.github.io/wiki/wax/).
 
 
-# Using Docker
+## Using Docker
 
 To use Wax in a container, make sure you are familiar with Docker and have [Docker installed](https://docs.docker.com/get-docker/).
 
@@ -111,6 +127,6 @@ $ bundle exec jekyll serve --host 0.0.0.0 --incremental --force-polling
 
 You can exit the container at any time with `$ exit`, which will automatically stop and remove the container.
 
-# Contributing
+## Contributing
 
 We welcome contributions to Wax, including bug reports and feature requests (submitted as [Issues](https://github.com/minicomp/wax/issues)), code contributions (submitted as [Pull Requests](https://github.com/minicomp/wax/pulls)), and documentation updates (submitted however!) Not sure where to start? Feel free to get in touch via [GitHub issue](https://github.com/minicomp/wax/issues) or grab an invite to join the conversation on the `#minicomp-wax` channel of the [Code4Lib Slack](https://docs.google.com/forms/d/e/1FAIpQLSeD77mBp0Y13mFePF8UmDwFrlbxNx3VttEjz_3dgglJeK-Zbg/viewform?c=0&w=1).
