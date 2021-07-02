@@ -12,15 +12,65 @@ working with this repository.
 
 ## Table of Contents
 1. [Undesign directory structure](#Undesign-Directory-Structure)
-2. [Undesign digital archive](#Undesign-Digital-Archive)
+2. [Undesign digital collection](#Undesign-Digital-Collection)
 3. [Original Wax readme](#Wax)
 
 # Undesign Directory Structure
 
-For the __Wax__ exhibition site, you need a file of metadata records (in `CSV` format) and a directory of image files (either in `png` or `jpeg` format). The CSV spreadsheet can be found at [`\undesign-barnard\_data\undesign.csv`](https://github.com/dhc-barnard/undesign-barnard/blob/main/_data/undesign_faulty.csv).
+The __Wax__ exhibition site works with a file of metadata records (in `CSV` format) and a directory of image files (either in `png` or `jpeg` format). The CSV spreadsheet containing the Undesign syllabus metadata records can be found at [`\undesign-barnard\_data\undesign.csv`](https://github.com/dhc-barnard/undesign-barnard/blob/main/_data/undesign_faulty.csv). This is how the spreadsheet looks like.
 
-# Undesign Digital Archive
+![CSV Spreadsheet](/img/undesign_spreadsheet.png)
 
+The most important fields here are `pid` and `label`. These fields are required. The `pid` field should follow the naming convention already present (`obj1`, `obj2`, `obj3`, ...). The `label` field should be the title or simply description of the collection item. For other fields, please keep in mind to avoid whitespaces and special characters and to keep field names in lowercase. You can change how these field names are displayed on the website.
+
+_The following field names will throw errors: `id`, `date` (use `_date` instead), `thumbnail`, `full`, and `manifest`._
+
+The directory of image files to tag visuals to each collection item can be found in [`\undesign-barnard\_data\raw_images\undesign`](https://github.com/dhc-barnard/undesign-barnard/tree/main/_data/raw_images/undesign). To match an image to its object in the spreadsheet, the files must be named to match the `pid`. So for example, an image attached to `obj1` should be named `obj1.png` or `obj.jpeg` depending on file type.
+
+# Undesign Digital Collection
+
+With those two essential pieces, the spreadsheet and directory of image files, you can generate the
+collection by running the main tasks. Please make sure you are comfortable with using Wax in a Docker container. You can see steps on how to create and access that container in the [__Wax__ section](#Wax).
+
+Once you have your container running, you can run the following to see available tasks:
+```
+bundle exec rake --tasks
+```
+
+The three tasks of importance are `wax:derivatives`, `wax:pages`, and `wax:search`.
+
+### wax:derivatives
+
+The task `wax:derivatives:simple` generates the collection's image derivates.
+
+```
+bundle exec rake wax:derivatives:simple undesign
+```
+
+Running the above command will:
+1.  Look for the directory of image files at [`\undesign-barnard\_data\raw_images\undesign`](https://github.com/dhc-barnard/undesign-barnard/tree/main/_data/raw_images/undesign)
+2. Generate two copies of each image (full size and thumbnail, with 1140 px and 250 px widths, respectively) into the directory `img/derivatives/simple`.
+3. Automatically add two fields (`full` and `thumbnail`) to the metadata records with paths to those image derivatives.
+
+### wax:pages
+
+Running the following will generate the pages for each collection item.
+
+```
+bundle exec rake wax:pages undesign
+```
+This will:
+1. Look for the metadata spreadsheet at [`\undesign-barnard\_data\undesign.csv`](https://github.com/dhc-barnard/undesign-barnard/blob/main/_data/undesign_faulty.csv)
+2. Generate the `_undesign` directory with `.md` files that will generate pages with the metadata information
+
+### wax:search
+
+ Running the following will generate the search index for the Undesign site.
+ ```
+ bundle exec rake wax:search undesign
+ ```
+
+ _To Alicia: I can't figure out how to fix the thumbnail images path for the search_
 
 # Wax
 
