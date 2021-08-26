@@ -1,9 +1,21 @@
 ---
 sitemap: false
 ---
+
+@font-face {
+  font-family: "revolution_ii";
+  src: url("../assets/fonts/revolution_ii.ttf");
+};
+@font-face {
+  font-family: "Archer-Bold-Pro";
+  src: url("../assets/fonts/Archer-Bold-Pro.otf");
+};
+
 /*
 variable declaration
 */
+
+
 
 /* branding */
 $logo: url("{{ '/assets/logo.png' | absolute_url }}");
@@ -11,7 +23,9 @@ $logo: url("{{ '/assets/logo.png' | absolute_url }}");
 /* text */
 
 $body-font:       'Open Sans', 'sans-serif';
-$heading-font:    'Open Sans', 'sans-serif';
+$nav-font:        'Open Sans';
+$heading-font:    'Open Sans';
+$title-font:      'revolution_ii';
 
 
 /* Image Size */
@@ -23,9 +37,11 @@ $thumbnail-width: 140px;
 
 $text-color:      #100c01;
 $bg-color:        #ffffff;
-$neutral:         #eae7de;
-$accent-light:    #966d09;
-$accent-dark:     #644906;
+/*$neutral:         #CCCC99;*/
+$neutral:         #E09F3E;
+$neutral-light:   #FFF3B0;
+$accent-light:    #993333;
+$accent-dark:     #660000; 
 
 /* viewport sizes */
 
@@ -49,3 +65,182 @@ font & asset import
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&font-display=auto');
 @import 'wax';
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/*Undesign Customizations */
+
+#wax-header .navbar-brand {
+  font-family: $title-font;
+}
+
+#wax-header .navbar-nav .nav-link {
+  font-family: $nav-font;
+}
+
+#wax-header > .wax-inline-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#wax-footer {
+  background-color: $neutral-light;
+}
+
+#wax-footer .footer-title {
+  padding-bottom: 0em;
+}
+
+.footer-logos {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  min-height: 50px;
+}
+ 
+
+/* Social Media Sharing Buttons from sharingbutton.io */
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.resp-sharing-button__link:hover {
+  color: #fff;  
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 10pt;
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.resp-sharing-button--whatsapp:hover,
+.resp-sharing-button--whatsapp:active {
+  background-color: #1DA851;
+  border-color: #1DA851;
+}

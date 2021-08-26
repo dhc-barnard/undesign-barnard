@@ -22,6 +22,7 @@ Undesign has drawn together faculty, staff, and students from across the univers
 - Miriam Neptune, Interim Co-Dean of Barnard Library & Academic Information Services (BLAIS)
 - Michael Partis, Executive Director of [Bronx Cooperative Development Initiative](https://bcdi.nyc/)
 - Alicia Peaker, Digital Scholarship Librarian (BLAIS)
+- Alex Pittman, Associate Director, Center for Engaged Pedagogy
 - Pamela Phillips, Senior Program Assistant, Barnard Center for Research on Women (BCRW) and founder/creator, *[Changing the Narrative](https://thepublichousingproject.com/)*
 - Mary Rocco, Term Assistant Professor of Urban Studies
 - Jennifer Rosales, Executive Director of the Center for Engaged Pedagogy
@@ -33,3 +34,8 @@ Undesign has drawn together faculty, staff, and students from across the univers
 - Annabelle Tseng, Graduate Assistant for the Center for Engaged Pedagogy
 - Saraly Vargas (BC ’21), Sociology
 - Meredith Wisner, Research & Instruction Librarian for Anthropology, Art & Architecture
+
+With special thanks to:
+- Shirley Taylor, Director of Education at the [Apollo Theater](https://www.apollotheaters.org/) 
+- Cammie Jones, Executive Director of Community Engagement and Inclusion, Barnard College
+

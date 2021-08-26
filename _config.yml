@@ -18,12 +18,12 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Undesign the Redline @ Barnard'
-description:      ''
-url:              ''
-baseurl:          '/undesign'
-copyright:        ''
-logo:             '/assets/logo.png'
+title:            'UNDESIGN THE REDLINE @ BARNARD'
+description:      'an interactive exhibition that examines the legacy of systemic racism and redlining in Barnard and Columbia’s neighborhood'
+url:              'http://127.0.0.1:4000'
+baseurl:          ''
+#copyright:        ''
+logo:             '/assets/barnard-logo.png'
 
 # ---------------------------------------------------------------
 # BUILD SETTINGS
@@ -100,17 +100,18 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: 'About'
+  - label: 'about'
+    link: '/about/'
     sub:
-      - label: 'Undesign the Redline @ Barnard'
-        link: '/about/'
-      #- label: 'Documentation'
-        #link: 'https://minicomp.github.io/wiki/wax/'
-      - label: 'Collaborators'
-        link: '/credits/'
-  - label: '#Undesign@Barnard Syllabus'
-    link: '/collection/'
-  - label: 'Search'
+        - label: 'collaborators'
+          link: '/credits/'
+        - label: 'gallery'
+          link: '/gallery/'
+  - label: 'events'
+    link: '/events/'
+  - label: 'syllabus'
+    link: '/syllabus/'
+  - label: 'search'
     link: '/search/'
 
 # --------------------------------------------------------------
@@ -127,6 +128,8 @@ footer:
     - label: 'Contact'
       link: 'mailto:digitalhumanities@barnard.edu'
   logos:
-    - img: '/img/logo.png'
+    - img: '/img/barnard-logo.png'
+    - img: '/img/dhc-logo.png'
+    - img: '/img/dtw-logo.png'
 
 # FIN

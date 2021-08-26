@@ -239,7 +239,7 @@ content section
       text-decoration: none;
     }
     img {
-      height: 35px
+      height: 50px;
     }
   }
 }
@@ -253,6 +253,8 @@ content section
   width: $max-width;
   overflow: flex-wrap;
 }
+
+
 
 .full-width {
   width: 100vw;

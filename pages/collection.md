@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Browse the Collection
-permalink: /collection/
+title: Undesign Syllabus
+permalink: /syllabus/
 ---
 
 Contribute to the #Undesign@Barnard Syllabus here. Thank you for sharing your resource!
