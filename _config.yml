@@ -61,7 +61,7 @@ kramdown:
 # For more info, refer to:
 # ~> https://jekyllrb.com/docs/collections/
 
-collections:
+collections: 
   exhibits:
     output: true
   undesign: # name of collection
