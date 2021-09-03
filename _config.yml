@@ -20,7 +20,7 @@
 
 title:            'UNDESIGN THE REDLINE @ BARNARD'
 description:      'an interactive exhibition that examines the legacy of systemic racism and redlining in Barnard and Columbia’s neighborhood'
-url:              'http://127.0.0.1:4000'
+url:              ''
 baseurl:          ''
 #copyright:        ''
 logo:             '/assets/barnard-logo.png'
@@ -72,6 +72,17 @@ collections:
     images:
       source: 'raw_images/undesign' # path to the directory of images within `_data`
 
+# collections: 
+#   exhibits:
+#     output: true
+#   qatar: # name of collection
+#     output: true # makes sure pages are output as html files
+#     layout: 'qatar_item' # the layout for the pages to use
+#     metadata:
+#       source: 'qatar.csv' # path to the metadata file within `_data`
+#     images:
+#       source: 'raw_images/qatar' # path to the directory of images within `_data`
+
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
 # --------------------------------------------------------------
@@ -88,9 +99,12 @@ search:
         content: false # whether or not to index page content
         fields: # the metadata fields to index
           - publisher
-          - object_type
+          - format
           - label
+          - creator
           - _date
+          - collection
+          - description
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS

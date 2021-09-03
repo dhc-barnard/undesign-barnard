@@ -13,9 +13,9 @@ The __#Undesign@Barnard Syllabus__ is a project supported by the [Barnard Digita
 
 ### Visiting information
 
-Goes here.
+Coming soon
 
 ### Browse the #Undesign Syllabus
 
-{% include collection_gallery.html facet_by='object_type' collection='undesign' %}
+{% include collection_gallery.html facet_by='format' collection='undesign' %}
  
