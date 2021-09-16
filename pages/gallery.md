@@ -4,5 +4,4 @@ title: Gallery
 permalink: /gallery/
 ---
 
-
-Placeholder for installation photos. 
+Coming soon! 
