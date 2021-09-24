@@ -17,7 +17,7 @@ November 18 - 19
  
 We invite session proposals from faculty, staff and students for the Undesign the Redline @ Barnard Symposium. Sessions will likely take place on Friday, November 19, 2021. Read the [Call for Proposals](../img/cfp.pdf) and [submit your proposal](https://forms.gle/gZ9Wy7TB98RAJXNi7).
 
-Deadline to submit is **Friday, Sep 24, 2021**
+Deadline to submit is **Friday, October 1, 2021**
 
 
 
