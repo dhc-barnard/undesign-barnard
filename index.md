@@ -17,5 +17,7 @@ Coming soon
 
 ### Browse the #Undesign Syllabus
 
+{% include search_box.html search='main' %}
+
 {% include collection_gallery.html facet_by='format' collection='undesign' %}
  

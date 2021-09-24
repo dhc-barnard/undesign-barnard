@@ -85,7 +85,15 @@ blockquote p {
   display: inline;
 }
 
-/*Undesign Customizations */
+/***************** UNDESIGN CUSTOMIZATIONS ********************************/
+
+.wax-gallery-container .wax-gallery .gallery-item .hovereffect:hover .overlay {
+  opacity: 1;
+}
+
+.paginationtext {
+  
+}
 
 #wax-header .navbar-brand {
   font-family: $title-font;
