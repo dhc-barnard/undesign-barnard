@@ -6,7 +6,7 @@ permalink: '/credits/'
 
 Undesign has drawn together faculty, staff, and students from across the university as well as collaborators from the larger community. Our core planning committee includes:
 
-- Saima Akther, Associate Director of the Vagelos Computational Science Center
+- Saima Akhtar, Associate Director of the Vagelos Computational Science Center
 - Ariana Allensworth, artist and Founding Member of [Anti-Eviction Mapping Project](https://antievictionmap.com/)
 - Logan Brenner, Assistant Professor, Environmental Science
 - Zakiya Collier, Digital Archivist at the [Schomburg Center for Research in Black Culture, The New York Public Library](https://www.nypl.org/locations/schomburg)
