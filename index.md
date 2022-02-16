@@ -13,7 +13,9 @@ The __#barnardundesign Syllabus__ is a project supported by the [Barnard Digital
 
 ### Visiting information
 
-Coming soon
+Register for a [guided tour ](https://library.barnard.edu/events/undesign-redline-barnard-tours) of the Undesign the Redline Exhibit, to learn about the connection between race, real estate, and wealth inequality in the US. We will interact with historic maps, and delve into local stories that reveal the persistent legacy of redlining and structural racism in our communities and neighborhoods. Guided tours are offered on Fridays at 12:00pm and 1:15pm.
+
+If you are unable to join us in person, you can view our [virtual tour](https://vimeo.com/673642982), guided by April De Simone, Creator and Lead Designer of Undesign the Redline.
 
 ### Browse the #Undesign Syllabus
 
